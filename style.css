@@ -95,6 +95,10 @@ min-width: 480px;
     gap:20px;
 }
 
+#projects >.card:hover{
+    background: #769ec7;
+}
+
 #projects .description{
     flex:1;
     margin:auto;
@@ -106,6 +110,13 @@ min-width: 480px;
 #projects img{
     flex:1;
     max-width: 460px;
+    min-width: 410px;
+    margin: auto;
+}
+
+#projects img:hover{
+    flex:1;
+    max-width: 500px;
     min-width: 410px;
     margin: auto;
 }
