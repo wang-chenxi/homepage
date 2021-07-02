@@ -1,12 +1,13 @@
-*{
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 
 nav{
-    max-width: 1024px;
+    max-width: 1200px;
     height: 50px;
     margin:0 auto;
     display: flex;
@@ -26,7 +27,7 @@ nav a{
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@ nav a{
 }
 
 .headpage img{
-    max-width: 512px;
+    max-width: 600px;
     flex: 1;
     margin: auto;
     width: 100%;
@@ -73,8 +74,8 @@ min-width: 480px;
 }
 
 .sub-container{
-    margin: 0 auto;
-    max-width: 1024px;
+    /* margin: 0 auto; */
+    max-width: 1200px;
     max-width: 100%;
 }
 
@@ -97,7 +98,7 @@ min-width: 480px;
 #projects .description{
     flex:1;
     margin:auto;
-    max-width: 460px;
+    /* max-width: 460px; */
     text-align: left;
 
 }
@@ -120,21 +121,48 @@ min-width: 480px;
 
 /* fun facts */
 
+/* .card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+gap:20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+height: 400px;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/funfact-travel.JPG");
+background-size: cover;
+z-index: -1;
+} */
+
+/* fun facts */
+
 #fun-facts{
     display: flex;
-    justify-content: space-evenly;
-    gap:1vw;
+    justify-content: space-around;
+    /* gap:20px; */
     flex-wrap: wrap;
 }
 
 #fun-facts > .card{
     flex:1;
-    max-width: 240px;
+    max-width: 300px;
     position: relative;
 }
 
 #fun-facts > .card img{
-    width: 240px;
+    width: 300px;
 }
 
 /* #fun-facts >.card::after{
@@ -155,11 +183,14 @@ top:0;
 left: 0;
 width: 100%;
 height: 100%;
+width:260px;
+margin: auto 20px;
 }
 
 #fun-facts > .card:hover .fun-facts-description{
     opacity: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

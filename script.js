@@ -8,7 +8,7 @@ function profileOver() {
     profilePhoto.src = "./assets/profile-2.JPG"
 }
 
-// function scale(element) {
-//     element.style.transform = "scale(1.5)";
-//     element.transition = "500ms";
-// }
+function scale(element) {
+    element.img.style.transform = "scale(1.5)";
+    element.transition = "500ms";
+}
