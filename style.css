@@ -45,6 +45,7 @@ nav a{
     max-width: 512px;
     flex: 1;
     margin: auto;
+    width: 100%;
 }
 
 .main{
@@ -73,6 +74,7 @@ min-width: 480px;
 .sub-container{
     margin: 0 auto;
     max-width: 1024px;
+    max-width: 100%;
 }
 
 .main h1{
@@ -102,6 +104,7 @@ min-width: 480px;
 #projects img{
     flex:1;
     max-width: 460px;
+    min-width: 410px;
     margin: auto;
 }
 
@@ -126,22 +129,37 @@ min-width: 480px;
 #fun-facts > .card{
     flex:1;
     max-width: 240px;
+    position: relative;
+    z-index: -1;
 }
 
 #fun-facts > .card img{
-    max-width: 240px;
+    width: 240px;
 }
 
-#fun-facts > .card img:hover{
+/* #fun-facts >.card::after{
+    content:"text message";
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+#fun-facts > .card:hover img{
     opacity: 0.5;
 }
 
 .fun-facts-description{
-    visibility: hidden;
-
+display: none;
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
-#fun-facts > .card img:hover .fun-facts-description{
-    visibility: visible;
+#fun-facts > .card:hover .fun-facts-description{
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
