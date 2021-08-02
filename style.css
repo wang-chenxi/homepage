@@ -121,7 +121,7 @@ min-width: 480px;
     margin: auto;
 }
 
-#projects video{
+/* #projects video{
     flex:1;
     max-width: 460px;
     min-width: 410px;
@@ -129,6 +129,20 @@ min-width: 480px;
 }
 
 #projects video:hover{
+    flex:1;
+    max-width: 500px;
+    min-width: 410px;
+    margin: auto;
+} */
+
+#smartStyling{
+    flex:1;
+    max-width: 460px;
+    min-width: 410px;
+    margin: auto;
+}
+
+#smartStyling:hover{
     flex:1;
     max-width: 500px;
     min-width: 410px;
