@@ -219,11 +219,13 @@ z-index: -1;
     /* flex:1; */
     /* max-width: 320px; */
     width:320px;
+    height: fit-content;
     position: relative;
 }
 
 #fun-facts > .card img{
     /* width: 300px; */
+    height: fit-content;
     width:-webkit-fill-available;
 }
 
