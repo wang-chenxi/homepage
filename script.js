@@ -9,6 +9,7 @@ function profileOver() {
 }
 
 function scale(element) {
+    console.log(element);
     element.img.style.transform = "scale(1.5)";
     element.transition = "500ms";
 }
