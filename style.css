@@ -226,7 +226,7 @@ z-index: -1;
 #fun-facts > .card img{
     /* width: 300px; */
     height: 400px;
-    width:400px;
+    width:320px;
 }
 
 /* #fun-facts >.card::after{
