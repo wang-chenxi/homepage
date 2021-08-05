@@ -6,97 +6,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chenxi Wang | Home Page</title>
+
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous'>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#fun-facts">Fun Facts</a>
-        <a href="#contact">Contact Me</a>
-    </nav>
-    <div class="container">
-        <div class="headpage">
-            <div class="intro">
-                <h1>Hi, <br>I'm Chenxi Wang</h1>
-                <p>Seattle | Beijing</p>
-                <p>Full Stack SDE</p>
-                <p>Life-long Learner</p>
+    <div class="container d-flex flex-column align-items-center justify-content-center p-0">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#fun-facts">Fun Facts</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <main>
+            <div class="headpage d-flex">
+                <div class="intro">
+                    <h1>Hi, <br>I'm Chenxi Wang</h1>
+                    <p>Seattle | Beijing</p>
+                    <p>Full Stack SDE</p>
+                    <p>Life-long Learner</p>
+                </div>
+                <img src="./assets/profile-2.JPG" alt="profile-photo" onmouseover="profileOn()"
+                    onmouseout="profileOver()">
             </div>
-            <img src="./assets/profile-2.JPG" alt="profile-photo" onmouseover="profileOn()" onmouseout="profileOver()">
-        </div>
-        <div class="main">
-            <h1>About Me</h1>
-            <div class="sub-container" id="about">
-                <p>I should write something here, but I am not sure what to write now.</p>
-            </div>
-            <h1>Projects</h1>
-            <div class="sub-container" id="projects">
-                <div class="card" onmouseover="scale(this)">
-                    <div class="description">
-                        <h2>Dancemon</h2>
-                        <p>Dancemon (https://dancemon.com/) is a free dance learning platform for all level dance
-                            lovers. In this turbulent COVID-19 situation, we are putting every effort to keep you safe
-                            and healthy, meanwhile, provide you with better and easier dance practicing experience. We
-                            strive to deliver an authentic lifestyle to you through our high-quality dance learning
-                            platform. With Dancemon, users can easily learn any dance, record their videos, and share
-                            their learning progress with friends.</p>
+            <div class="main">
+                <h1>About Me</h1>
+                <div class="sub-container" id="about">
+                    <p>I should write something here, but I am not sure what to write now.</p>
+                </div>
+                <h1>Projects</h1>
+                <div class="sub-container" id="projects">
+                    <div class="card projects border-0 rounded-0" onmouseover="scale(this)">
+                        <div class="description">
+                            <h2>Dancemon</h2>
+                            <p>Dancemon (https://dancemon.com/) is a free dance learning platform for all level dance
+                                lovers. In this turbulent COVID-19 situation, we are putting every effort to keep you
+                                safe
+                                and healthy, meanwhile, provide you with better and easier dance practicing experience.
+                                We
+                                strive to deliver an authentic lifestyle to you through our high-quality dance learning
+                                platform. With Dancemon, users can easily learn any dance, record their videos, and
+                                share
+                                their learning progress with friends.</p>
 
+                        </div>
+                        <img src="./assets/project-dancemon.PNG" alt="dancemon">
                     </div>
-                    <img src="./assets/project-dancemon.PNG" alt="dancemon">
-                </div>
-                <div class="card" onmouseover="scale(this)">
-                    <div class="description">
-                        <h2>Smart Styling</h2>
-                        <p>Smart Styling will help you to put together outfits with items in your personal closet.
-                            Simply register, let us know what your preferred style is, and upload pieces from your
-                            closet in order to receive outfit recommendations. <br><br> Key tech:
-                            Python, Flask, JQuery, MySQL, Bootstrap, Beautiful Soup, HTML, CSS, Cookies, B-Crypt</p>
+                    <div class="card projects border-0 rounded-0" onmouseover="scale(this)">
+                        <div class="description">
+                            <h2>Smart Styling</h2>
+                            <p>Smart Styling will help you to put together outfits with items in your personal closet.
+                                Simply register, let us know what your preferred style is, and upload pieces from your
+                                closet in order to receive outfit recommendations. <br><br> Key tech:
+                                Python, Flask, JQuery, MySQL, Bootstrap, Beautiful Soup, HTML, CSS, Cookies, B-Crypt</p>
 
+                        </div>
+                        <video src="./assets/project-SmartStyling.mov" controls autoplay muted
+                            id="smartStyling"></video>
                     </div>
-                    <video src="./assets/project-SmartStyling.mov" controls autoplay muted id="smartStyling"></video>
-                </div>
-                <div class="card" onmouseover="scale(this)">
-                    <div class="description">
-                        <h2>Dancemon</h2>
-                        <p>Dancemon (https://dancemon.com/) is a free dance learning platform for all level dance
-                            lovers. In this turbulent COVID-19 situation, we are putting every effort to keep you safe
-                            and healthy, meanwhile, provide you with better and easier dance practicing experience. We
-                            strive to deliver an authentic lifestyle to you through our high-quality dance learning
-                            platform. With Dancemon, users can easily learn any dance, record their videos, and share
-                            their learning progress with friends.</p>
+                    <div class="card projects border-0 rounded-0" onmouseover="scale(this)">
+                        <div class="description">
+                            <h2>Dancemon</h2>
+                            <p>Dancemon (https://dancemon.com/) is a free dance learning platform for all level dance
+                                lovers. In this turbulent COVID-19 situation, we are putting every effort to keep you
+                                safe
+                                and healthy, meanwhile, provide you with better and easier dance practicing experience.
+                                We
+                                strive to deliver an authentic lifestyle to you through our high-quality dance learning
+                                platform. With Dancemon, users can easily learn any dance, record their videos, and
+                                share
+                                their learning progress with friends.</p>
 
+                        </div>
+                        <img src="./assets/project-dancemon.PNG" alt="dancemon">
                     </div>
-                    <img src="./assets/project-dancemon.PNG" alt="dancemon">
                 </div>
-            </div>
-            <h1>Fun Facts</h1>
-            <div class="sub-container" id="fun-facts">
-                <div class="card">
-                    <img src="./assets/funfact-travel.JPG" alt="travel">
-                    <p class="fun-facts-description"><strong>Travel</strong><br>I have visited 40+ countries, and I plan
-                        to visit another 20 countries in the next few years</p>
+                <h1>Fun Facts</h1>
+                <div class="sub-container d-flex justify-content-center flex-wrap gap-1" id="fun-facts">
+                    <div class="card flex-1">
+                        <img src="./assets/funfact-travel.JPG" alt="travel">
+                        <p class="fun-facts-description"><strong>Travel</strong><br>I have visited 40+ countries, and I
+                            plan
+                            to visit another 20 countries in the next few years</p>
+                    </div>
+                    <div class="card flex-1">
+                        <img src="./assets/funfact-dance.JPG" alt="travel">
+                        <p class="fun-facts-description"><strong>Dance</strong><br>I am a Hip-hop dancer with 10+ years
+                            experiences. I enjoy dance and I produce dance cover with my friends in Seattle bi-monthly.
+                        </p>
+                    </div>
+                    <div class="card flex-1">
+                        <img src="./assets/funfact-family.JPG" alt="travel">
+                        <p class="fun-facts-description"><strong>Proud Mom</strong><br>I have a one-year old boy. I
+                            started
+                            my code journey when he was 6 months. He is my best company when I am coding!</p>
+                    </div>
+                    <div class="card flex-1">
+                        <img src="./assets/funfact-travel.JPG" alt="travel">
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="./assets/funfact-dance.JPG" alt="travel">
-                    <p class="fun-facts-description"><strong>Dance</strong><br>I am a Hip-hop dancer with 10+ years
-                        experiences. I enjoy dance and I produce dance cover with my friends in Seattle bi-monthly.</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/funfact-family.JPG" alt="travel">
-                    <p class="fun-facts-description"><strong>Proud Mom</strong><br>I have a one-year old boy. I started
-                        my code journey when he was 6 months. He is my best company when I am coding!</p>
-                </div>
-                <div class="card">
-                    <img src="./assets/funfact-travel.JPG" alt="travel">
-                </div>
-            </div>
-            <h1>Contact Me</h1>
-            <div class="sub-container" if="contact">
+                <h1>Contact Me</h1>
+                <div class="sub-container" if="contact">
 
+                </div>
             </div>
-        </div>
+        </main>
     </div>
     <script src="script.js"></script>
 </body>
