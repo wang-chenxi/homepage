@@ -262,7 +262,7 @@ z-index: -1;
 
 @media (max-width: 575.98px) {
     body {
-        width: 100vw;
+        width: 100%;
     }
     nav {
         /* justify-content: center; */
@@ -270,7 +270,7 @@ z-index: -1;
     }
 
     .container {
-        width: 100vw;
+        width: 100%;
         margin: 0;
     }
 
@@ -282,19 +282,19 @@ z-index: -1;
     .headpage {
         padding-left: 0;
         padding-right: 0;
-        width: 100vw;
+        width: 100%;
         justify-content: center;
     }
 
     .headpage img {
         /* max-width: 600px; */
-        max-width: 100vw;
+        max-width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
 
     #about {
-        width: 100vw;
+        width: 100%;
         padding: 20px;
     }
 
@@ -310,7 +310,7 @@ z-index: -1;
     }
 
     .projects img {
-        max-width: 100vw;
+        max-width: 100%;
     }
 
     .projects:hover img {
@@ -318,7 +318,7 @@ z-index: -1;
     }
 
     .projects > #smartStyling {
-        max-width: 100vw;
+        max-width: 100%;
     }
 
     .projects:hover > #smartStyling {
