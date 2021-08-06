@@ -274,9 +274,17 @@ nav{
         padding-left: 0;
         padding-right: 0;
     }
+
+    .headpage{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .headpage img{
         /* max-width: 600px; */
         max-width:100vw;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #about{
