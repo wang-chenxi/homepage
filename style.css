@@ -1,36 +1,38 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
-html body{
-    overflow-x:hidden;
+html body {
+    overflow-x: hidden;
 }
 
-nav{
+nav {
     /* max-width: 1200px; */
     height: 50px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
     /* gap:20px; */
     position: sticky;
-    top:0;
-    background-color:rgb(250, 250, 250, 0.5);
+    top: 0;
+    background-color: rgb(250, 250, 250, 0.5);
     z-index: 1;
     width: -webkit-fill-available;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: black;
 }
 
-.main{
+.main {
     /* max-width: 1200px; */
     margin: 0 auto;
     display: flex;
@@ -39,15 +41,15 @@ nav a{
     align-items: stretch;
 }
 
-.headpage{
+.headpage {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: #FEBF89;
-    color: #6B2E1C;
+    background: #febf89;
+    color: #6b2e1c;
 }
 
-.headpage img{
+.headpage img {
     /* max-width: 600px; */
     flex: 1;
     margin: auto;
@@ -55,83 +57,81 @@ nav a{
     max-width: -webkit-fill-available;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.intro{
-margin: 20px auto;
-flex:1;
-text-align: center;
-min-width: 480px;
+.intro {
+    margin: 20px auto;
+    flex: 1;
+    text-align: center;
+    min-width: 480px;
 }
 
 /* .intro:hover p{
     text-shadow: 2px 2px wheat;
 } */
 
-.intro p{
+.intro p {
     font-size: large;
     padding: 5px 0;
-    color: #274D46;
+    color: #274d46;
 }
 
-.sub-container{
+.sub-container {
     /* margin: 0 auto; */
     max-width: 1200px;
     max-width: 100%;
 }
 
-.main h1{
+.main h1 {
     text-align: center;
     font-weight: normal;
 }
 
 /* projects */
 
-.projects{
+.projects {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: #8FAECD;
+    background: #8faecd;
     padding: 40px;
-    gap:30px;
+    gap: 30px;
     flex-direction: row;
 }
 
-.projects:hover{
+.projects:hover {
     background: #769ec7;
 }
 
-
-#projects .description{
-    flex:1;
-    margin:auto;
+#projects .description {
+    flex: 1;
+    margin: auto;
     /* max-width: 460px; */
     text-align: left;
     min-width: 300px;
-
 }
 
-.projects img{
-    flex:1;
+.projects img {
+    flex: 1;
     max-width: 460px;
     min-width: 410px;
     margin: auto;
     transition: transform 0.25s ease-in-out;
     @media (max-width: 575.98px) {
-        max-width:80vw;
+        max-width: 80vw;
     }
 }
 
-.projects:hover img{
-    flex:1;
+.projects:hover img {
+    flex: 1;
     /* max-width: 500px;
     min-width: 340px; */
     margin: auto;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
 /* #projects video{
@@ -148,8 +148,8 @@ min-width: 480px;
     margin: auto;
 } */
 
-.projects > #smartStyling{
-    flex:1;
+.projects > #smartStyling {
+    flex: 1;
     max-width: 460px;
     min-width: 410px;
     margin: auto;
@@ -163,21 +163,21 @@ min-width: 480px;
 
 } */
 
-.projects:hover > #smartStyling{
-    flex:1;
+.projects:hover > #smartStyling {
+    flex: 1;
     /* max-width: 500px;
     min-width: 340px; */
     margin: auto;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
-.sub-container h2{
-    color: #6B2E1C;
+.sub-container h2 {
+    color: #6b2e1c;
     font-weight: normal;
 }
 
-.sub-container p{
-    color: #274D46;
+.sub-container p {
+    color: #274d46;
 }
 
 /* fun facts */
@@ -216,18 +216,18 @@ z-index: -1;
      flex-wrap: wrap;
 } */
 
-#fun-facts > .card{
+#fun-facts > .card {
     /* flex:1; */
     /* max-width: 320px; */
-    width:320px;
+    width: 320px;
     height: 400px;
     position: relative;
 }
 
-#fun-facts > .card img{
+#fun-facts > .card img {
     /* width: 300px; */
     height: 400px;
-    width:320px;
+    width: 320px;
 }
 
 /* #fun-facts >.card::after{
@@ -237,22 +237,22 @@ z-index: -1;
     left: 0;
 } */
 
-#fun-facts > .card:hover img{
+#fun-facts > .card:hover img {
     opacity: 0.5;
 }
 
-.fun-facts-description{
-display: none;
-position: absolute;
-top:0;
-left: 0;
-width: 100%;
-height: 100%;
-width:260px;
-margin: auto 20px;
+.fun-facts-description {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 260px;
+    margin: auto 20px;
 }
 
-#fun-facts > .card:hover .fun-facts-description{
+#fun-facts > .card:hover .fun-facts-description {
     opacity: 1;
     display: flex;
     flex-direction: column;
@@ -261,76 +261,79 @@ margin: auto 20px;
 }
 
 @media (max-width: 575.98px) {
+    body {
+        width: 100vw;
+    }
+    nav {
+        /* justify-content: center; */
+        display: none;
+    }
 
-nav{
-    /* justify-content: center; */
-    display: none;
-}
+    .container {
+        width: 100vw;
+        margin: 0;
+    }
 
-.container{
-    width: 100vw;
-}
-
-    main{
+    main {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .headpage{
+    .headpage {
         padding-left: 0;
         padding-right: 0;
         width: 100vw;
         justify-content: center;
     }
 
-    .headpage img{
+    .headpage img {
         /* max-width: 600px; */
-        max-width:100vw;
+        max-width: 100vw;
         margin-left: 0;
         margin-right: 0;
     }
 
-    #about{
+    #about {
         width: 100vw;
         padding: 20px;
     }
 
-    .projects{
-        padding-left:0;
-        padding-right:0;
+    .projects {
+        padding-left: 0;
+        padding-right: 0;
         padding-bottom: 0;
     }
 
-    .description{
+    .description {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .projects img{
-        max-width:100vw;
-    }
-
-    .projects:hover img{
-        transform: none;
-    }
-
-    .projects > #smartStyling{
+    .projects img {
         max-width: 100vw;
     }
 
-    .projects:hover > #smartStyling{
+    .projects:hover img {
         transform: none;
     }
 
-    #nav-fun{
+    .projects > #smartStyling {
+        max-width: 100vw;
+    }
+
+    .projects:hover > #smartStyling {
+        transform: none;
+    }
+
+    #nav-fun {
         display: none;
     }
 
-    #h-fun{
+    #h-fun {
         display: none;
     }
 
-    .fun-facts > .card{
+    .fun-facts > .card {
         display: none;
     }
 }
