@@ -9,7 +9,8 @@
 
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'
         integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous'>
-    <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -21,8 +22,9 @@
             <a href="#contact">Contact Me</a>
         </nav>
         <div class="mobile-nav dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"></a>
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="./assets/pnghut_drop-down-list-arrow-dropdown.png" alt="MENU" style="height:  15px;"></a>
                 <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#intro">Back to Top</a></li>
                   <li><a class="dropdown-item" href="#about">About Me</a></li>
                   <li><a class="dropdown-item" href="#projects">Projects</a></li>
                   <li><a class="dropdown-item" href="#contact">Contact Me</a></li>
@@ -30,14 +32,13 @@
         </div>
         <main>
             <div class="headpage d-flex">
-                <div class="intro">
+                <div class="intro" id="intro">
                     <h1>Hi, <br>I'm Chenxi Wang</h1>
                     <p>Seattle | Beijing</p>
                     <p>Full Stack SDE</p>
                     <p>Life-long Learner</p>
                 </div>
-                <img src="./assets/profile-2.JPG" alt="profile-photo" onmouseover="profileOn()"
-                    onmouseout="profileOver()">
+                <img src="./assets/profile-2.JPG" alt="profile-photo">
             </div>
             <div class="main pt-3">
                 <h1>About Me</h1>
