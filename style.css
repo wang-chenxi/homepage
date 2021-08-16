@@ -266,7 +266,7 @@ z-index: -1;
 
 .survey {
     width: 50%;
-    height: 680px;
+    height: 750px;
     display: none;
 }
 
@@ -285,8 +285,18 @@ z-index: -1;
 }
 
 .contact > h1:hover {
-    font-weight: bold;
     cursor: pointer;
+    color: #769ec7;
+}
+
+.social {
+    text-decoration: none;
+    color: #6b2e1c;
+}
+
+.social:hover {
+    text-decoration: none;
+    color: #769ec7;
 }
 
 @media (max-width: 575.98px) {
