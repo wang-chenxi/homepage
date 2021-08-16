@@ -264,6 +264,31 @@ z-index: -1;
     align-items: center;
 }
 
+.survey {
+    width: 50%;
+    height: 680px;
+    display: none;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #febf89;
+    padding: 40px;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.contact > h1 {
+    color: #6b2e1c;
+}
+
+.contact > h1:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 @media (max-width: 575.98px) {
     body {
         width: 100%;
@@ -356,5 +381,9 @@ z-index: -1;
 
     .fun-facts > .card {
         display: none;
+    }
+
+    .survey {
+        width: 100%;
     }
 }
