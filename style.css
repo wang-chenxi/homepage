@@ -175,6 +175,22 @@ nav a {
     transform: scale(1.1, 1.1);
 }
 
+.projects > #superKary {
+    flex: 1;
+    max-width: 460px;
+    min-width: 410px;
+    margin: auto;
+    transition: transform 0.25s ease-in-out;
+}
+
+.projects:hover > #superKary {
+    flex: 1;
+    /* max-width: 500px;
+    min-width: 340px; */
+    margin: auto;
+    transform: scale(1.1, 1.1);
+}
+
 .sub-container h2 {
     color: #6b2e1c;
     font-weight: normal;
