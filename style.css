@@ -95,6 +95,31 @@ nav a {
     font-weight: normal;
 }
 
+/* aboutme */
+.aboutMe {
+    flex: 1;
+}
+
+.aboutMe p {
+    min-width: 410px;
+}
+
+.carousel {
+    min-width: 410px;
+    max-width: 460px;
+}
+
+.carousel-item {
+    padding-top: 75%;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
 /* projects */
 
 .projects {
